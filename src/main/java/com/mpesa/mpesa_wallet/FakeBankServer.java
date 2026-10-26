@@ -1,6 +1,5 @@
 package com.mpesa.mpesa_wallet;
 
-package com.mpesa.wallet;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpExchange;
