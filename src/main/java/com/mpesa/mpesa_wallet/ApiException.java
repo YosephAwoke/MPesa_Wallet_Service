@@ -1,0 +1,16 @@
+package com.mpesa.mpesa_wallet;
+
+
+public class ApiException extends RuntimeException {
+    private final int status;
+    private final String errorCode;
+
+    public ApiException(int status, String errorCode, String message) {
+        super(message);
+        this.status = status;
+        this.errorCode = errorCode;
+    }
+
+    public int getStatus() { return status; }
+    public String getErrorCode() { return errorCode; }
+}
